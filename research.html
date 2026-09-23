@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Research by Khashayar Pourtaheri.">
+    <title>Research | Khashayar Pourtaheri</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html">Khashayar Pourtaheri</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="research.html" aria-current="page">Research</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </header>
+
+    <main class="page narrow-page">
+      <p class="eyebrow">Research</p>
+      <h1>Research</h1>
+      <p class="intro">I use causal inference and data-rich empirical methods to study policy-relevant questions in health, crime, and the economics of AI.</p>
+
+      <section class="research-list" aria-label="Research projects">
+        <article>
+          <p class="project-label">Job market paper</p>
+          <h2>Decriminalization and Its Discontents</h2>
+          <p>Crime and health effects of drug-policy reforms in Washington and Oregon. This project evaluates the effects of Washington's Blake decision and Oregon Measure 110 using linked administrative data and modern difference-in-differences methods.</p>
+        </article>
+        <article>
+          <p class="project-label">Under review</p>
+          <h2>Showing the Person Beats Describing the Person in LLM Synthetic Personas</h2>
+          <p>An experimental study of whether LLM-based synthetic personas can replicate human decision-making, and how behavioral histories improve their predictive performance.</p>
+        </article>
+        <article>
+          <p class="project-label">Policy research</p>
+          <h2>Health and labor-market outcomes</h2>
+          <p>Collaborative policy research on the economic effects of adolescent mental health on labor-market outcomes, with attention to causal design, survey-weighted estimation, and policy interpretation.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Khashayar Pourtaheri</span>
+      <a href="index.html">Home</a>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+</html>
